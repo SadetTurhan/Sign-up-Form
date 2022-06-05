@@ -1,15 +1,13 @@
 *{
     margin:0;
 }
-img{
-    width: 700px;
-    height: 930px;
-    
-}
 
 .signup{
     grid-area: header;
-  }
+    width: 700px;
+    height: 950px;        
+}
+
 
 .hero{
     grid-area: hero;
@@ -22,12 +20,12 @@ footer{
 .last{
     grid-area:last;
     background-color: rgba(215, 241, 193, 0.589);
-    height: 220px;
+    height: 370px;
 }
 .container {
     display: grid;
-    grid-template-columns: 500px 200px auto 200px;
-    grid-template-rows: 400px 300px 50px;
+    grid-template-columns: 500px 200px 800px ;
+    grid-template-rows: 300px 280px 150px;
     grid-template-areas: 
       "header header hero hero"
       "header header footer footer"
@@ -35,7 +33,8 @@ footer{
 }
 
 .main-text{
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-bottom: 150px;
     font-size: 24px;
     margin-left: 60px;
 }
@@ -43,8 +42,8 @@ footer{
 .inputs-place{
     margin-top: 20px;
     margin-left: 60px;
-    font-size: 24px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .create-account{
@@ -54,17 +53,42 @@ footer{
     margin-left: 60px;
     border-radius: 8%;
     background-color: rgb(56, 97, 56);
+    color:white;
+    font-size: 20px;
 }
 .last-text{
     margin-top: 20px;
     margin-left: 60px;
-    font-size: 14px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .fill{
-    margin-top:20px;
     margin-right: 100px;
     width: 240px;
     height: 24px;
+    border-radius: 5%;
+}
+
+.names{
+    margin-right: 295px;
+}
+
+.contact{
+    margin-right: 300px;
+}
+
+.pass{
+    margin-right: 250px;
+}
+
+input:invalid {
+    border-color: rgba(218, 22, 22, 0.911);
+    border-width: 2px;
+}
+
+.msg{
+    font-size: 28px;
+    margin-left: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
