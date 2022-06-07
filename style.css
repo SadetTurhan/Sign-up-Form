@@ -40,10 +40,15 @@ footer{
 }
 
 .inputs-place{
-    margin-top: 20px;
-    margin-left: 60px;
-    font-size: 26px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.left{
+    padding-left: 3vw;
 }
 
 .create-account{
@@ -91,4 +96,15 @@ input:invalid {
     font-size: 28px;
     margin-left: 6px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 50px;
 }
+
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    opacity: 80%;
+}
+
